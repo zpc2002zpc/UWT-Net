@@ -72,8 +72,7 @@ python train.py  --dataset busi --input_w 256 --input_h 256 --name busi_UWTNet  
 ```
 Note that the resolution of glas is 512x512, differing with other datasets (256x256).
 ## References
+[WTConv](https://github.com/BGU-CS-VIL/WTConv)
 
-[WTConv]([https://1drv.ms/f/c/bb0380f07d1dc124/ElhMrEBvq0RKvmbzG2jSawMBUvJQx35gtvf-UfGkpv8gJw?e=iaHS2g](https://github.com/BGU-CS-VIL/WTConv))
-
-[UKAN]([https://1drv.ms/f/c/bb0380f07d1dc124/ElhMrEBvq0RKvmbzG2jSawMBUvJQx35gtvf-UfGkpv8gJw?e=iaHS2g](https://github.com/CUHK-AIM-Group/U-KAN))
+[UKAN](https://github.com/CUHK-AIM-Group/U-KAN)
 
