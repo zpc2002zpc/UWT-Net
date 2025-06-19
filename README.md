@@ -1,6 +1,6 @@
 # UWT-Net
 ## 📰News
-**[2025.6.18]** UWT-Net is accepted by AAAI-25. 
+**[2025.6.18]** UWT-Net is accepted by MICCAI-25. 
 
 ## Datasets
 Link to original dataset:
