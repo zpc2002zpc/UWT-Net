@@ -4,16 +4,16 @@
 ## Citation
 If you find this work helpful for your project,please consider citing the following paper:
 ```javascript
-@InProceedings{ ZhaPen_UWTNet_MICCAI2025,
- author = { Zhang, Pengcheng and Ouyang, Xiaocao and Peng, Ran },
- title = { { UWT-Net: Mining low-frequency feature information for medical image segmentation } }, 
- booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2025},
- year = {2025},
- publisher = {Springer Nature Switzerland},
- volume = { LNCS 15969 },
- month = {October},
- pages = { 616 -- 625 },
-}  
+@InProceedings{ZhaPen_UWTNet_MICCAI2025,
+        author = { Zhang, Pengcheng and Ouyang, Xiaocao and Peng, Ran},
+        title = { { UWT-Net: Mining low-frequency feature information for medical image segmentation } },
+        booktitle = {proceedings of Medical Image Computing and Computer Assisted Intervention -- MICCAI 2025},
+        year = {2025},
+        publisher = {Springer Nature Switzerland},
+        volume = {LNCS 15969},
+        month = {September},
+        page = {616 -- 625}
+}
 ```
 ## Datasets
 Link to original dataset:
