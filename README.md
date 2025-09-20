@@ -5,14 +5,14 @@
 If you find this work helpful for your project,please consider citing the following paper:
 ```javascript
 @InProceedings{ZhaPen_UWTNet_MICCAI2025,
-        author = { Zhang, Pengcheng and Ouyang, Xiaocao and Peng, Ran},
+        author = { Zhang, Pengcheng AND Ouyang, Xiaocao AND Peng, Ran},
         title = { { UWT-Net: Mining low-frequency feature information for medical image segmentation } },
         booktitle = {proceedings of Medical Image Computing and Computer Assisted Intervention -- MICCAI 2025},
         year = {2025},
         publisher = {Springer Nature Switzerland},
         volume = {LNCS 15969},
         month = {September},
-        page = {616 -- 625}
+        page = {615 -- 624}
 }
 ```
 ## Datasets
