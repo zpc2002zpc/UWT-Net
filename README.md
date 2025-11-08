@@ -1,4 +1,5 @@
 # UWT-Net
+# This is an official repo for MICCAI25 paper - UWT-Net: Mining Low-Frequency Feature Information for Medical Image Segmentation
 ## 📰News
 **[2025.6.18]** UWT-Net is accepted by MICCAI-25. 
 ## Citation
