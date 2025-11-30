@@ -1,11 +1,26 @@
 # UWT-Net
+# This is an official repo for MICCAI25 paper - UWT-Net: Mining Low-Frequency Feature Information for Medical Image Segmentation
+## 📰News
+**[2025.6.18]** UWT-Net is accepted by MICCAI-25. 
+## Citation
+If you find this work helpful for your project,please consider citing the following paper:
+```javascript
+@inproceedings{zhang2025uwt,
+  title={UWT-Net: Mining Low-Frequency Feature Information for Medical Image Segmentation},
+  author={Zhang, Pengcheng and Ouyang, Xiaocao and Peng, Ran},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={615--624},
+  year={2025},
+  organization={Springer}
+}
+```
 ## Datasets
 Link to original dataset:
 BUSI:[data](https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset)
 GLAS:[data](https://websignon.warwick.ac.uk/origin/slogin?shire=https%3A%2F%2Fwarwick.ac.uk%2Fsitebuilder2%2Fshire-read&providerId=urn%3Awarwick.ac.uk%3Asitebuilder2%3Aread%3Aservice&target=https%3A%2F%2Fwarwick.ac.uk%2Ffac%2Fcross_fac%2Ftia%2Fdata%2Fglascontest&status=notloggedin)
 CVC-ClinicDB:[data](https://www.kaggle.com/datasets/balraj98/cvcclinicdb)
 
-Also, we provide all the [pre-processed dataset]() without requiring any further data processing. You can directly download and put them into the data dir.
+Also, we provide all the [pre-processed dataset](https://1drv.ms/f/c/bb0380f07d1dc124/EqWdcferptlNsQGxftXujWABA4u8_J6RfEId96QMmUrqZA?e=FgwjIt) without requiring any further data processing. You can directly download and put them into the data dir.
 The resulted file structure is as follows.
 ```
 UWT-Net
@@ -46,7 +61,7 @@ pip install torch==1.13.0+cu116 torchvision==0.14.0+cu116 torchaudio==0.13.0 --e
 pip install -r requirements.txt  
 ```
 ## Evaluating UWT-Net
-We provide pre-trained models [checkpoint]() for all datasets that are our best results in the experiments. Note that this is different from the average results of the paper.
+We provide pre-trained models [checkpoint](https://1drv.ms/f/c/bb0380f07d1dc124/ErAyQwjA-nNEtoZxaIjcr7kBtmYMAfKVA_mXDbyUosCwtg?e=VdZ9Df) for all datasets that are our best results in the experiments. Note that this is different from the average results of the paper.
 |Dataset|IoU|F1|Checkpoint|
 |-|-|-|-|
 |BUSI|67.14|80.17|[link](https://1drv.ms/f/c/bb0380f07d1dc124/ElhMrEBvq0RKvmbzG2jSawMBUvJQx35gtvf-UfGkpv8gJw?e=iaHS2g)|
@@ -71,3 +86,8 @@ For example, train UWT-Net with the resolution of 256x256 with a single GPU on t
 python train.py  --dataset busi --input_w 256 --input_h 256 --name busi_UWTNet  --data_dir ./inputs
 ```
 Note that the resolution of glas is 512x512, differing with other datasets (256x256).
+## References
+[WTConv](https://github.com/BGU-CS-VIL/WTConv)
+
+[UKAN](https://github.com/CUHK-AIM-Group/U-KAN)
+

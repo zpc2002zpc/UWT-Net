@@ -96,10 +96,10 @@ def main():
         model.load_state_dict(ckpt, strict=False)
         
     model.eval()
-    input_tensor = torch.randn(1, config['input_channels'], config['input_h'], config['input_w']).cuda()  # Example input tensor
-    flops, params = profile(model, inputs=(input_tensor,))  # Forward pass to calculate GFLOPs and number of parameters
-    print(f"GFLOPs: {flops / 1e9:.4f} GFLOPs")
-    print(f"Parameters: {params / 1e6:.4f}M parameters")
+    # input_tensor = torch.randn(1, config['input_channels'], config['input_h'], config['input_w']).cuda()  # Example input tensor
+    # flops, params = profile(model, inputs=(input_tensor,))  # Forward pass to calculate GFLOPs and number of parameters
+    # print(f"GFLOPs: {flops / 1e9:.4f} GFLOPs")
+    # print(f"Parameters: {params / 1e6:.4f}M parameters")
     val_transform = Compose([
         Resize(config['input_h'], config['input_w']),
         transforms.Normalize(),
