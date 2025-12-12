@@ -20,8 +20,7 @@ BUSI:[data](https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-
 GLAS:[data](https://websignon.warwick.ac.uk/origin/slogin?shire=https%3A%2F%2Fwarwick.ac.uk%2Fsitebuilder2%2Fshire-read&providerId=urn%3Awarwick.ac.uk%3Asitebuilder2%3Aread%3Aservice&target=https%3A%2F%2Fwarwick.ac.uk%2Ffac%2Fcross_fac%2Ftia%2Fdata%2Fglascontest&status=notloggedin)
 CVC-ClinicDB:[data](https://www.kaggle.com/datasets/balraj98/cvcclinicdb)
 
-Also, we provide all the [pre-processed dataset](https://1drv.ms/f/c/bb0380f07d1dc124/EqWdcferptlNsQGxftXujWABA4u8_J6RfEId96QMmUrqZA?e=FgwjIt) without requiring any further data processing. You can directly download and put them into the data dir.
-The resulted file structure is as follows.
+You can find processed data in [UKAN](https://github.com/CUHK-AIM-Group/U-KAN)
 ```
 UWT-Net
 ├── inputs
