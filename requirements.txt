@@ -5,3 +5,5 @@ medpy
 thop
 numpy==1.26.4
 tensorboardX
+
+pip install albumentations==1.4.11 albucore==0.0.12 
